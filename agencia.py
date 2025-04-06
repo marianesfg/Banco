@@ -6,4 +6,4 @@ class Agencia(Banco):
         self.numero = numero
 
     def __str__(self):
-        return f"Agência {self.numero} - {self.nome}, localizado em {self.endereco}"
+        return f"Agência {self.numero} - {self.nome}, localizado em {self.endereco}."
